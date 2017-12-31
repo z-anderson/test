@@ -1,5 +1,3 @@
-Hello World
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +5,7 @@ Hello World
   <meta charset = "UTF-8">
   <meta name = "author" content = "someone"
 
-  <title>A Great Site</title>
+  <title>A Great Site's Title</title>
 
   <!--Main Javascript-->
   <script src = "index.js"></script>
@@ -18,6 +16,23 @@ Hello World
   <h1>A great site</h1>
   <br>
   <p>This is a site used to learn about websites along with the developer</p>
+
+  <!--<button onclick = "myFunction()">Click me</button>-->
+
+  <p id = "demo" onclick = "myFunction()">Click me to change my text color.</p>
+
+  <script>
+    function myFunction() {
+      document.getElementById("demo").style.color = "red";
+    }
+  </script>
+
+  <!--try it again using external script-->
+  <p id = "extern demo" onclick = "myFunction2()">Now click ME to change my text color.</p>
+  <script src = "index.js"></script>
+
+
+
 </body>
 
 </html>
