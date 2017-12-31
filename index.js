@@ -4,7 +4,7 @@
   //document.myFunction().style.color = "red";
 //}
 
-
+//HERE ARE SOME COMMENTS
 
 function myFunction2() {
   document.getElementById("extern demo").style.color = "blue";
